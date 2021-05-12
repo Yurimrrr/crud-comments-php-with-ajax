@@ -1,0 +1,184 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #F5F5F5;
+	font-family: 'Segoe UI','Arial';
+}
+
+h1, label, h4{
+	color: #152029;
+}
+
+h1 {
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+label{
+	font-size: 11px;
+	opacity: .7;
+}
+
+section.content{
+	width: 1000px;
+	height: 100vh;
+	background: #fff;
+	box-shadow: 0px 0px 10px #CCC;
+	margin: 0 auto;
+}
+
+div.box_form{
+	border-bottom: 1px solid #DDD;
+	padding: 15px 25px;
+	background: #F5F5F5;
+}
+
+div.box_form > form > input, div.box_form > form > textarea {
+	border: 1px solid #ddd;
+	margin-top: 4px;
+	color:#666;
+	border-radius: 3px;
+	padding: 10px 15px;
+}
+
+div.box_form > form > input {
+	width: 275px;
+}
+
+div.box_form > form > textarea {
+	width: 405px;
+	height: 155px;
+}
+
+div.box_form > form > input:focus, div.box_form > form > textarea:focus{
+	outline: 0;
+}
+
+div.box_form > form > input.btn-sub {
+	background: #2cc051;
+	color:#F5F5F5;
+	cursor: pointer;
+	border:0;
+	border-radius: 3px;
+}
+
+div.box_form > form > input.btn-sub:hover{
+	transition: all .3s;
+	box-shadow: 5px 5px 4px #CCC;
+	opacity: .9;
+}
+
+.b_comm {
+	display : flex;
+	padding: 30px;	
+}
+
+.b_comm:nth-child(even){
+	background-color: #F5F5F5;
+}
+
+.b_comm:nth-child(odd){
+	background-color: #DDD;
+}
+.a_pad{
+	width: 200px;
+	padding-left: 750px;
+}
+
+.full_width{
+	width: 100%;
+}
+
+.tdcomentario{
+	width: 80%;
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(217,217,217,1) 100%, rgba(255,255,255,1) 100%);
+	border-radius: 10px;
+}
+
+.acaotd{
+	width: 20%;
+}
+
+.botao_acao{
+	margin: 15px;
+	width: 25px;
+}
+
+thead th {
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+tbody td {
+	padding-left: 20px;
+	text-align: left;
+
+}
+
+th#font-primary {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(85, 85, 85);
+}
+
+th#font-secundary {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.comment{
+	width: 500px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.login{
+	border-bottom: 1px solid #DDD;
+	padding: 15px 25px;
+	background: #F5F5F5;
+}
+
+div.login > form > input, div.login > form > textarea {
+	border: 1px solid #ddd;
+	margin-top: 4px;
+	color:#666;
+	border-radius: 3px;
+	padding: 10px 15px;
+}
+
+div.login > form > input {
+	width: 165px;
+}
+
+div.login > form > textarea {
+	width: 405px;
+	height: 155px;
+}
+
+div.login > form > input:focus, div.login > form > textarea:focus{
+	outline: 0;
+}
+
+div.login > form > input.btn-sub {
+	background: #2cc051;
+	color:#F5F5F5;
+	cursor: pointer;
+	border:0;
+	border-radius: 3px;
+}
+
+div.login > form > input.btn-sub:hover{
+	transition: all .3s;
+	box-shadow: 5px 5px 4px #CCC;
+	opacity: .9;
+}
