@@ -12,11 +12,11 @@
 			<h1>Deixe seu Comentário:</h1>
 				<form>
 					<div class="user">
-						<label for="user">Usuario:</label><br>
+						<label for="user">Usuario: </label><br>
 						<input type="text" name="user" id="user"><br>
 					</div>
 					<div class="password">
-						<label for="user">Usuario:</label><br>
+						<label for="user">Usuario: </label><br>
 						<input type="text" name="user" id="user">
 					</div>
 					<br>
